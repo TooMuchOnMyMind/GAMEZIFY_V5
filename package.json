@@ -12,8 +12,9 @@
     "format": "prettier --config .prettierrc.js --write .",
     "lint": "eslint ./src/",
     "lint:fix": "eslint ./src/ --fix",
-    "export": "expo export --platform web"
-
+    "export": "expo export --platform web",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "keywords": [
     "proxy"
@@ -30,7 +31,11 @@
     "wisp-server-node": "^1.1.7",
     "ws": "^8.18.0",
     "react-dom": "18.3.1",
-    "react-native-web": "~0.19.13"
+    "react-native-web": "~0.19.13",
+    "@expo/metro-runtime": "~4.0.1",
+    "expo": "~52.0.37",
+    "react": "18.3.1",
+    "react-native": "0.76.7"
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",

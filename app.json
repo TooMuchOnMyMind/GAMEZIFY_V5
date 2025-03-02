@@ -1,20 +1,28 @@
 {
-	"expo": {
-	  "name": "Ultraviolet App",
-	  "slug": "ultraviolet-app",
-	  "description": "Node.js Ultraviolet instance",
-	  "platforms": ["ios", "android", "web"],
-	  "version": "1.0.0",
-	  "orientation": "portrait",
-	  "icon": "./assets/GAMEZIFY_LOGO.png",
-	  "updates": {
-		"fallbackToCacheTimeout": 0
-	  },
-	  "assetBundlePatterns": ["**/*"],
-	  "web": {
-		"favicon": "./assets/favicon.ico",
-		"bundler": "metro"
-	  }
-	}
+  "expo": {
+    "name": "Ultraviolet App",
+    "slug": "ultraviolet-app",
+    "description": "Node.js Ultraviolet instance",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/GAMEZIFY_LOGO.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.ico",
+      "bundler": "metro"
+    },
+    "android": {
+      "package": "com.anonymous.ultravioletapp"
+    }
   }
-  
+}
